@@ -5,7 +5,7 @@ Requirements: python3, pigpiod, pigpio library for python3
 
 ## Running
     
-    sudo apt install python3 pigpio python3-pigpio
+    sudo apt install python3 pigpio python3-pigpio git
     sudo pigpiod -s 2
     git clone --depth 1 https://github.com/ardera/pi2c-sniffer
     python3 ./pi2c-sniffer/pi2c-sniffer.py
